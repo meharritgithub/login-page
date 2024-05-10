@@ -1,0 +1,17 @@
+body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        /*background-image:url('wal5.png');
+        background-repeat: no-repeat;
+        background-size:cover;*/
+        background:linear-gradient(to right,rgb(185, 223, 45),rgb(75, 196, 27));
+
+}
+h2{
+        color:darkgreen;
+        font-size:29px;
+        text-align:center;
+        margin-top: 100px;
+}

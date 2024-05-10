@@ -1,0 +1,86 @@
+body {
+        background:linear-gradient(to right,rgb(185, 223, 45),rgb(75, 196, 27));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+
+}
+
+input::placeholder {
+        color: black;
+}
+
+h2 {
+        text-align: center;
+        font-size: 30px;
+        color: darkgreen;
+}
+div.signup{
+        margin-top:100px;
+}
+
+.signup {
+        background: linear-gradient(to right, rgb(191, 222, 78), rgb(37, 228, 94));
+        width: 30%;
+        height: fit-content;
+        margin: 10px;
+        font-size: 15px;
+        color: white;
+}
+
+input {
+        margin-inline: 32px;
+        background: local;
+        border: 1px solid white;
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+
+}
+
+#forgot {
+        text-decoration: none;
+        margin-inline-end: 20px;
+        color: yellow;
+        display: block;
+        text-align: center;
+}
+
+.btn {
+        display: flex;
+        justify-content: center;
+
+}
+
+button a {
+        text-decoration: none;
+        color: black;
+}
+
+button {
+        background-color: rgb(72, 186, 218);
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        width: 250px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: darkgreen;
+
+}
+button:hover{
+        background-color: rgb(29, 156, 29);
+}
+.para {
+        display: block;
+        text-align: center;
+        margin-top: -12px;
+        color: darkgreen;
+}
+
+#signup {
+        margin-inline: 10px;
+        color: yellow;
+
+}
